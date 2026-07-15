@@ -1,10 +1,10 @@
 # Arduino Projects
 
-A collection of my Arduino projects involving electronics, sensors, displays, LEDs, and hardware experiments.
+A collection of my Arduino projects using C++, including sensors, displays, LEDs, motors, and electronics experiments.
 
 ## About
 
-This repository contains my Arduino projects as I learn programming, electronics, and how different components interact with microcontrollers. It is used to track my progress, experiment with hardware, and build projects using different electronic components.
+This repository contains my Arduino projects created using the Arduino IDE. It is used to track my progress, experiment with electronics, and build projects using different components and hardware.
 
 ## Folder Structure
 
@@ -12,9 +12,9 @@ This repository contains my Arduino projects as I learn programming, electronics
 arduino-projects/
 │
 ├── basics/              # Basic Arduino concepts and experiments
-├── sensors/             # Individual sensor experiments and projects
+├── sensors/             # Sensor-based projects
 ├── displays/            # LCD, 7-segment, and display projects
-├── leds/                # LED, RGB LED, and lighting projects
+├── leds/                # LED and RGB LED projects
 ├── motors/              # Servo and motor experiments
 ├── integrated-projects/ # Projects combining multiple components
 └── README.md
@@ -23,20 +23,22 @@ arduino-projects/
 ## Topics Covered
 
 - Arduino programming
+- C++ programming
 - Digital and analog input/output
 - Sensors
 - LEDs and RGB LEDs
 - Displays
 - Servo motors
-- Multiple-component projects
 - Electronics fundamentals
-- Hardware experimentation
+- Hardware integration
+- Multi-component projects
 
 ## Hardware
 
 - Arduino Uno
 - Breadboard
 - LEDs
+- RGB LEDs
 - Sensors
 - LCD displays
 - Servo motors
@@ -46,14 +48,15 @@ arduino-projects/
 
 - Language: C++
 - IDE: Arduino IDE
-- Editor: Visual Studio Code
+- Hardware Platform: Arduino Uno
 
 ## Goals
 
 - Improve embedded programming skills
 - Learn electronics and hardware integration
-- Understand how different components work together
-- Build more advanced Arduino projects
+- Understand how different components work
+- Build more complex Arduino projects
+- Improve problem solving through hardware projects
 
 ## How to Run
 
@@ -64,4 +67,4 @@ arduino-projects/
 
 ## Progress
 
-This repository will continue to grow as I build more Arduino projects and explore electronics.
+This repository will continue to grow as I create more Arduino projects and explore electronics and embedded systems.
