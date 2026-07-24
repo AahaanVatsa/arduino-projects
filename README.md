@@ -58,7 +58,8 @@ Install the following libraries using the Arduino IDE Library Manager:
 ## Tools
 
 - Language: C++
-- Editor/IDE: Arduino IDE
+- IDE: Arduino IDE
+- Editor: Visual Studio Code / Arduino IDE
 - Hardware Platform: Arduino Uno
 
 ## Goals
