@@ -79,6 +79,13 @@ Install the following libraries using the Arduino IDE Library Manager:
 5. Connect the required hardware components.
 6. Upload the sketch to the Arduino Uno.
 
+## Notes
+
+* The hardware connections used in these projects can be changed to fit your setup.
+* You do not necessarily need to use the exact same pins, sensors, libraries, or other hardware shown in the code.
+* If you change the hardware configuration, update the corresponding pins and settings in the code.
+* External libraries can also be modified or replaced with compatible libraries when needed.
+
 ## Progress
 
 This repository will continue to grow as I build more Arduino projects, explore new sensors and communication methods, and develop increasingly complex embedded systems.
