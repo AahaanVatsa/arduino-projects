@@ -85,6 +85,8 @@ Install the following libraries using the Arduino IDE Library Manager:
 * You do not necessarily need to use the exact same pins, sensors, libraries, or other hardware shown in the code.
 * If you change the hardware configuration, update the corresponding pins and settings in the code.
 * External libraries can also be modified or replaced with compatible libraries when needed.
+* Some projects were created using Tinkercad for circuit simulation. You can use Tinkercad to simulate and build compatible circuits without physical hardware.
+
 
 ## Progress
 
