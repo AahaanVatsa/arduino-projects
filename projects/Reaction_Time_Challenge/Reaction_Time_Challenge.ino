@@ -49,10 +49,6 @@ bool countdown(int r, int g, int b, int duration){
 
 // Setup componenets as I/O and start LCD
 void setup(){
-
-  Serial.begin(9600);
-
-Serial.println("Program Started");
   pinMode(red, OUTPUT);
   pinMode(green, OUTPUT);
   pinMode(blue, OUTPUT);
