@@ -37,7 +37,7 @@ void setup()
     lcd.print("You won 30 coins!");
     delay(1000);
     lcd.scrollDisplayLeft();
-    for(int i = 400; i >= 700; i = i+10)
+    for(int i = 400; i <= 700; i = i+10)
     {
       tone(buzzer,i);
       delay(40);
@@ -52,7 +52,7 @@ void setup()
     lcd.print("You won 20 coins!");
     delay(1000);
     lcd.scrollDisplayLeft();
-    for(int i = 400; i >= 700; i = i+10)
+    for(int i = 400; i <= 700; i = i+10)
     {
       tone(buzzer,i);
       delay(40);
@@ -67,7 +67,7 @@ void setup()
     lcd.print("You won 10 coins!");
     delay(1000);
     lcd.scrollDisplayLeft();
-    for(int i = 400; i >= 700; i = i+10)
+    for(int i = 400; i <= 700; i = i+10)
     {
       tone(buzzer,i);
       delay(40);
