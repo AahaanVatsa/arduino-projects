@@ -21,7 +21,10 @@ void setup()
     lcd.setCursor(0,1);
     lcd.print("You won 100 coins!");
     delay(1000);
-    lcd.scrollDisplayLeft();
+    for(int i = 0; i < 2; i++)
+    {
+       lcd.scrollDisplayLeft();
+    }
     for(int i = 700; i >= 400; i = i-10)
     {
       tone(buzzer,i);
