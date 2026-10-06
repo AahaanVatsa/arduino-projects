@@ -18,12 +18,12 @@ void loop()
    a = Serial.read();
    Serial.print("You Pressed: ");
    Serial.println(a);
-   if(a='1')
+   if(a=='1')
    {
     tone(buzz, 1000);
     Serial.println("BUZZER ON!");
    }
-   if(a='0')
+   if(a=='0')
    {
     noTone(buzz);
     Serial.println("BUZZER OFF!");
